@@ -7,12 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		090C850A18F1BF4B00C44CA5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090C850918F1BF4B00C44CA5 /* main.cpp */; };
-		090C850C18F1BF4B00C44CA5 /* glutDemo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 090C850B18F1BF4B00C44CA5 /* glutDemo.1 */; };
 		090C851418F1BF6600C44CA5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090C851218F1BF6600C44CA5 /* GLUT.framework */; };
 		090C851518F1BF6600C44CA5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090C851318F1BF6600C44CA5 /* OpenGL.framework */; };
-		090CFD1E18FBDD1A008095AC /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090CFD1C18FBDD1A008095AC /* AGL.framework */; };
-		090CFD1F18FBDD1A008095AC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090CFD1D18FBDD1A008095AC /* GLKit.framework */; };
+		092844151A0526F3003C64C7 /* glut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 092844141A0526F3003C64C7 /* glut.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,7 +19,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				090C850C18F1BF4B00C44CA5 /* glutDemo.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -30,12 +26,9 @@
 
 /* Begin PBXFileReference section */
 		090C850618F1BF4B00C44CA5 /* glutDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = glutDemo; sourceTree = BUILT_PRODUCTS_DIR; };
-		090C850918F1BF4B00C44CA5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		090C850B18F1BF4B00C44CA5 /* glutDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = glutDemo.1; sourceTree = "<group>"; };
 		090C851218F1BF6600C44CA5 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		090C851318F1BF6600C44CA5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		090CFD1C18FBDD1A008095AC /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = System/Library/Frameworks/AGL.framework; sourceTree = SDKROOT; };
-		090CFD1D18FBDD1A008095AC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		092844141A0526F3003C64C7 /* glut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glut.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,8 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090CFD1E18FBDD1A008095AC /* AGL.framework in Frameworks */,
-				090CFD1F18FBDD1A008095AC /* GLKit.framework in Frameworks */,
 				090C851418F1BF6600C44CA5 /* GLUT.framework in Frameworks */,
 				090C851518F1BF6600C44CA5 /* OpenGL.framework in Frameworks */,
 			);
@@ -56,8 +47,6 @@
 		090C84FD18F1BF4B00C44CA5 = {
 			isa = PBXGroup;
 			children = (
-				090CFD1C18FBDD1A008095AC /* AGL.framework */,
-				090CFD1D18FBDD1A008095AC /* GLKit.framework */,
 				090C851218F1BF6600C44CA5 /* GLUT.framework */,
 				090C851318F1BF6600C44CA5 /* OpenGL.framework */,
 				090C850818F1BF4B00C44CA5 /* glutDemo */,
@@ -76,8 +65,7 @@
 		090C850818F1BF4B00C44CA5 /* glutDemo */ = {
 			isa = PBXGroup;
 			children = (
-				090C850918F1BF4B00C44CA5 /* main.cpp */,
-				090C850B18F1BF4B00C44CA5 /* glutDemo.1 */,
+				092844141A0526F3003C64C7 /* glut.cpp */,
 			);
 			path = glutDemo;
 			sourceTree = "<group>";
@@ -133,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090C850A18F1BF4B00C44CA5 /* main.cpp in Sources */,
+				092844151A0526F3003C64C7 /* glut.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
