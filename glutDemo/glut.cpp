@@ -53,7 +53,7 @@ int main(int argc, char** argv)
 	// 初始化
 	glutInit(&argc, argv);
 	glutInitDisplayMode(g_DisplayMode);
-//	glewInit();
+    //	glewInit();
     
 	// 创建window
 	glutInitWindowPosition(g_WindowPosX, g_WindowPosY);
